@@ -1,67 +1,79 @@
-body {
-    font-family: Arial, sans-serif;
+/* styles.css */
+
+/* Reset styles */
+* {
     margin: 0;
     padding: 0;
-    background-color: #f5f5f5;
-    color: #333;
+    box-sizing: border-box;
 }
 
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Header styles */
 header {
     background-color: #333;
     color: #fff;
-    padding: 20px;
+    padding: 20px 0;
     text-align: center;
+}
+
+header h1 {
+    margin-bottom: 10px;
 }
 
 nav ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
-    text-align: center;
 }
 
 nav ul li {
     display: inline;
-    margin: 0 10px;
+    margin-right: 20px;
 }
 
 nav ul li a {
+    color: #fff;
     text-decoration: none;
-    color: #333;
 }
 
+/* Container styles */
 .container {
-    max-width: 800px;
-    margin: 20px auto;
-    padding: 0 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
 }
 
+/* Service styles */
 .service {
-    background-color: #fff;
-    padding: 20px;
-    margin-bottom: 20px;
+    width: 300px;
+    border: 1px solid #ccc;
     border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
 }
 
 .service h3 {
-    color: red; /* Make heading text red */
+    font-size: 20px;
+    margin-bottom: 10px;
 }
 
 .service p {
-    color: green; /* Make paragraph text green */
+    margin-bottom: 15px;
 }
 
+/* Footer styles */
 .footer {
     background-color: #333;
     color: #fff;
-    padding: 20px;
+    padding: 20px 0;
     text-align: center;
 }
 
-.business-name {
-    color: yellow; /* Make business name text yellow */
-}
-
-.request-demo-form label {
-    color: blue; /* Make form label text blue */
+/* Image styles */
+.service img {
+    max-width: 100%;
+    height: auto;
 }
