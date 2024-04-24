@@ -10,6 +10,8 @@
 /* Body styles */
 body {
     font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
 }
 
 /* Header styles */
@@ -46,6 +48,36 @@ nav ul li a {
     margin-top: 20px;
 }
 
+/* About section styles */
+.about {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.about h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.about p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.about ul {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.about ul li {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
 /* Service styles */
 .service {
     width: 300px;
@@ -53,6 +85,7 @@ nav ul li a {
     border-radius: 5px;
     padding: 20px;
     margin: 10px;
+    background-color: #fff;
 }
 
 .service h3 {
@@ -61,7 +94,46 @@ nav ul li a {
 }
 
 .service p {
+    font-size: 16px;
     margin-bottom: 15px;
+}
+
+/* Lead form styles */
+.lead-form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.lead-form h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.lead-form label {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.lead-form input,
+.lead-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.lead-form button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.lead-form button:hover {
+    background-color: #555;
 }
 
 /* Footer styles */
