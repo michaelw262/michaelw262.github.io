@@ -7,82 +7,63 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <div class="container">
-            <h1>Stronghold Cybersecurity Consulting</h1>
-            <nav>
-                <ul>
-                    <li><a href="#services">Services</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
 
-    <section id="hero">
-        <div class="container">
-            <h2>Secure Your Future with Williams Cybersecurity Consulting</h2>
-            <p>Protect your organization from cyber threats with our expert cybersecurity consulting services.</p>
-            <a href="#contact" class="btn">Request a Demo</a>
-        </div>
-    </section>
+<header>
+    <h1>Stronghold Consulting</h1>
+    <p>Your Trusted Partner in Cybersecurity</p>
+</header>
 
+<nav>
+    <ul>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+
+<div class="container">
     <section id="services">
-        <div class="container">
-            <h2>Our Services</h2>
-            <h3>Cybersecurity Consulting</h3>
-            <p>Our cybersecurity consulting services are designed to help organizations identify, assess, and mitigate cybersecurity risks. We offer:</p>
-            <ul>
-                <li>Cybersecurity Assessments - $250/hr</li>
-                <li>Security Architecture Design - $300/hr</li>
-                <li>Incident Response Planning - $275/hr</li>
-                <li>Security Awareness Training - $200/hr</li>
-            </ul>
-
-            <h3>Cloud Security Consulting</h3>
-            <p>As experts in cloud security, we provide consulting services to ensure that your cloud infrastructure is secure and compliant. Our cloud security services include:</p>
-            <ul>
-                <li>Cloud Security Assessments - $300/hr</li>
-                <li>Secure Cloud Architecture Design - $350/hr</li>
-                <li>Cloud Compliance Guidance (e.g., FedRAMP, ISO 27001) - $325/hr</li>
-                <li>Cloud Security Best Practices Training - $250/hr</li>
-            </ul>
+        <h2>Our Services</h2>
+        <div class="service">
+            <h3>Cybersecurity Program Management</h3>
+            <p>Our seasoned team provides expert guidance in developing and managing comprehensive cybersecurity programs tailored to your organization's needs. From risk assessments to policy development, we ensure your cybersecurity posture is robust and compliant.</p>
+            <p>Hourly Rate: $200</p>
+        </div>
+        <div class="service">
+            <h3>FedRAMP Consulting</h3>
+            <p>We specialize in helping organizations navigate the complex process of achieving FedRAMP compliance. From initial assessment to ongoing monitoring, we guide you every step of the way to obtain FedRAMP Authorization to Operate (ATO) for your cloud services.</p>
+            <p>Hourly Rate: $250</p>
+        </div>
+        <div class="service">
+            <h3>Cloud Security Architecture</h3>
+            <p>Our cloud security architects design and implement robust security architectures for cloud environments, ensuring your data and applications are protected against cyber threats. We leverage industry-leading cloud security best practices to secure your assets.</p>
+            <p>Hourly Rate: $220</p>
         </div>
     </section>
-
+    
     <section id="about">
-        <div class="container">
-            <h2>About Us</h2>
-            <p>Williams Cybersecurity Consulting is a trusted partner for businesses seeking expert cybersecurity and cloud security guidance. Our founder, Michael A. Williams, brings years of experience and expertise to every engagement.</p>
-        </div>
+        <h2>About Us</h2>
+        <p>Stronghold Consulting is a trusted cybersecurity firm dedicated to helping organizations strengthen their security posture and mitigate cyber risks. With a team of experienced professionals and a proven track record, we deliver tailored solutions to meet your cybersecurity needs.</p>
     </section>
 
     <section id="contact">
-        <div class="container">
-            <h2>Contact Us</h2>
-            <p>Ready to secure your organization? Request a demo or more information by filling out the form below:</p>
-            <form action="#" method="POST">
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required>
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-                <label for="message">Message:</label>
-                <textarea id="message" name="message" rows="4" required></textarea>
-                <label for="request">Request:</label>
-                <select id="request" name="request">
-                    <option value="demo">Request a Demo</option>
-                    <option value="info">Request More Information</option>
-                </select>
-                <button type="submit">Submit</button>
-            </form>
-        </div>
+        <h2>Contact Us</h2>
+        <p>Ready to enhance your cybersecurity? Contact us today for a consultation or to request a demo of our services.</p>
+        <form action="submit.php" method="post">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name"><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message"></textarea><br>
+            <input type="submit" value="Submit">
+        </form>
     </section>
+</div>
 
-    <footer>
-        <div class="container">
-            <p>&copy; 2024 Williams Cybersecurity Consulting</p>
-        </div>
-    </footer>
+<footer>
+    <p>&copy; 2024 Stronghold Consulting. All rights reserved.</p>
+</footer>
+
 </body>
 </html>
